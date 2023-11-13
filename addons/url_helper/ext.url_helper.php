@@ -61,6 +61,12 @@ class Url_helper_ext
      */
     public $version = URL_HELPER_VERSION;
 
+
+    /**
+     * @var array
+     */
+    public config = [];
+
     /**
      * @param string $settings
      */
